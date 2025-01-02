@@ -1,0 +1,32 @@
+#skills_body {
+    height: 100%;
+    width: 100%;
+    background-color: lightsalmon;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#skills_header, #skills_main {
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+#skills_header {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+#skills_main {
+    flex: 9;
+}
+
+#skills_body p {
+    margin-left: 5px;
+}
